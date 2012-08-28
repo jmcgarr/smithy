@@ -2,9 +2,12 @@ forge "http://forge.puppetlabs.com"
 
 # mod 'puppetlabs/stdlib'
 
-# mod 'ntp',
-#   :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'
+mod "apt",
+  :git => "git://github.com/puppetlabs/puppetlabs-apt.git"
 
-# mod 'apt',
-#   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
-#   :ref => 'feature/master/dans_refactor'
+mod "stdlib",
+  :git => "git://github.com/puppetlabs/puppetlabs-stdlib.git"
+
+mod "jenkins",
+  :git => "git://github.com/excellaco/puppet-jenkins.git",
+  :ref => '1412b11'
