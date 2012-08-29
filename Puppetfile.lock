@@ -11,6 +11,20 @@ GIT
     jenkins (0.0.1)
 
 GIT
+  remote: git://github.com/maestrodev/puppet-sonar.git
+  ref: master
+  sha: 6ad36a4f897b50978e26e66da6930993a312b4ad
+  specs:
+    sonar (0.0.1)
+
+GIT
+  remote: git://github.com/maestrodev/puppet-wget.git
+  ref: master
+  sha: 243e5ad6dbf1783e20a03f5c03816f2dca949817
+  specs:
+    wget (0.0.1)
+
+GIT
   remote: git://github.com/puppetlabs/puppetlabs-apt.git
   ref: master
   sha: f3d84c6744a56d68e4fb50434b6c105e1051e964
@@ -29,4 +43,6 @@ DEPENDENCIES
   jenkins (>= 0)
   nexus (>= 0)
   puppetlabs/stdlib (>= 0)
+  sonar (>= 0)
+  wget (>= 0)
 

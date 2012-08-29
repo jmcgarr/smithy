@@ -15,3 +15,9 @@ mod "jenkins",
 
 mod "nexus",
   :git => "git@github.com:excellaco/puppet-nexus.git"
+
+mod "wget",
+  :git => "git://github.com/maestrodev/puppet-wget.git"
+
+mod "sonar",
+  :git => "git://github.com/maestrodev/puppet-sonar.git"

@@ -8,11 +8,14 @@ node default {
 	
 	class { 'jenkins': }
 
+	class { 'nexus': }
+
+	class { 'sonar': }
+
 	#class { 'jenkins': port => 8082 }
 	
 	# class { 'tomcat': version => 6 }
 	
-	class { 'nexus': }
 
 	#jenkins::plugin {
 	#	"git" : ;
