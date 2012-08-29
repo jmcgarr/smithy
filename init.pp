@@ -12,7 +12,7 @@ node default {
 	
 	# class { 'tomcat': version => 6 }
 	
-	#class { 'nexus': }
+	class { 'nexus': }
 
 	#jenkins::plugin {
 	#	"git" : ;
