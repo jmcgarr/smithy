@@ -11,6 +11,6 @@ config.vm.box = "lucid32"
   config.vm.provision :puppet, :module_path => "modules" do |puppet|
     puppet.manifests_path = "."
     puppet.manifest_file  = "init.pp"
-  puppet.options = "--verbose --debug"
+  puppet.options = "--verbose"
   end
 end
