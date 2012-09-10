@@ -1,14 +1,39 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
+    puppetlabs/apache (0.4.0)
+      puppetlabs/firewall (>= 0.0.4)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/firewall (0.0.4)
     puppetlabs/stdlib (3.0.1)
 
 GIT
+  remote: git://github.com/excellaco/puppet-gitblit.git
+  ref: master
+  sha: a6aadd3923d5c0f692f82c549b2bec35e71d5680
+  specs:
+    gitblit (0.0.1)
+
+GIT
   remote: git://github.com/excellaco/puppet-jenkins.git
-  ref: 1412b11
+  ref: master
   sha: 1412b115f716923c5547dadc9f2764c5ccc899c2
   specs:
     jenkins (0.0.1)
+
+GIT
+  remote: git://github.com/excellaco/puppet-nexus.git
+  ref: master
+  sha: c6960d4f8d16dab051851333134889d5fe0a5ab4
+  specs:
+    nexus (0.0.1)
+
+GIT
+  remote: git://github.com/jfryman/puppet-gitolite.git
+  ref: master
+  sha: ae9e887913c40a4751b7579a3561559d913db6cc
+  specs:
+    gitolite (0.0.1)
 
 GIT
   remote: git://github.com/maestrodev/puppet-sonar.git
@@ -31,17 +56,13 @@ GIT
   specs:
     apt (0.0.1)
 
-GIT
-  remote: git@github.com:excellaco/puppet-nexus.git
-  ref: master
-  sha: c6960d4f8d16dab051851333134889d5fe0a5ab4
-  specs:
-    nexus (0.0.1)
-
 DEPENDENCIES
   apt (>= 0)
+  gitblit (>= 0)
+  gitolite (>= 0)
   jenkins (>= 0)
   nexus (>= 0)
+  puppetlabs/apache (>= 0)
   puppetlabs/stdlib (>= 0)
   sonar (>= 0)
   wget (>= 0)
