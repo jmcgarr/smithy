@@ -7,19 +7,19 @@ WARNING - Smithy is very much in BETA right now.
 
 Product Integrations 
 --------------------------------
-* Version Control *
+_Version Control_
 - GitBlit
 
-* Continuous Integration *
+_Continuous Integration_
 - Jenkins
 
-* Binary Repository *
+_Binary Repository_
 - Nexus
 
-* Code Quality *
+_Code Quality_
 - Sonar
 
-* Planned Integrations *
+Planned Integrations
 - JIRA 
 - Wiki 
 - GitLab 
@@ -45,7 +45,7 @@ Under construction
 
 Authors
 --------------------------------
-** Mike McGarr **
+__Mike McGarr__
 - <http://www.twitter.com/jmichaelmcgarr>
 - <http://earlyandoften.wordpress.com>
 
