@@ -1,3 +1,6 @@
 .DS_Store
 .tmp/
 modules/
+.vagrant
+.vagrant
+Puppetfile.lock
